@@ -1,0 +1,36 @@
+{
+  "name": "@enspirit/bs-chokidar",
+  "version": "0.1.0",
+  "description": "BuckleScript bindings for Chokidar.js",
+  "main": "src/Chokidar.bs.js",
+  "homepage": "https://github.com/enspirit/bs-chokidar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enspirit/bs-chokidar.git"
+  },
+  "author": "ygu",
+  "license": "ISC",
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "chokidar"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.9",
+    "bs-platform": "^5.0.6",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "chokidar": "^3.3.0"
+  }
+}
