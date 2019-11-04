@@ -1,6 +1,6 @@
 {
   "name": "@enspirit/bs-chokidar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "BuckleScript bindings for Chokidar.js",
   "main": "src/Chokidar.bs.js",
   "homepage": "https://github.com/enspirit/bs-chokidar#readme",
