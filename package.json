@@ -1,18 +1,17 @@
 {
-  "name": "@enspirit/bs-chokidar",
+  "name": "@enspirit/rescript-chokidar",
   "version": "0.1.1",
-  "description": "BuckleScript bindings for Chokidar.js",
+  "description": "ReScript bindings for Chokidar.js",
   "main": "src/Chokidar.bs.js",
-  "homepage": "https://github.com/enspirit/bs-chokidar#readme",
+  "homepage": "https://github.com/enspirit/rescript-chokidar#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enspirit/bs-chokidar.git"
+    "url": "git+https://github.com/enspirit/rescript-chokidar.git"
   },
   "author": "ygu",
   "license": "ISC",
   "keywords": [
-    "reason",
-    "bucklescript",
+    "rescript",
     "chokidar"
   ],
   "scripts": {
@@ -24,7 +23,7 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
-    "bs-platform": "^5.0.6",
+    "bs-platform": "^8.2.0",
     "jest": "^24.8.0"
   },
   "jest": {

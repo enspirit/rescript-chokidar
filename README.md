@@ -1,6 +1,6 @@
-# bs-chokidar
+# rescript-chokidar
 
-[BuckleScript](https://bucklescript.github.io) bindings for [chokidar](https://github.com/paulmillr/chokidar).
+[ReScript](https://rescript-lang.org) bindings for [chokidar](https://github.com/paulmillr/chokidar).
 
 # Usage
 
@@ -15,5 +15,5 @@ Chokidar.close(watcher, ());
 
 First and formost, configure your environment with `npm install`.
 
-Specific BuckleScript aliases (`clean`, `build`, `watch`, `test`...) are defined
+Specific ReScript aliases (`clean`, `build`, `watch`, `test`...) are defined
 in the `package.json` file to be used with `npm run [alias]`.
