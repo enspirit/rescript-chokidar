@@ -1,6 +1,6 @@
 {
   "name": "@enspirit/rescript-chokidar",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ReScript bindings for Chokidar.js",
   "main": "src/Chokidar.bs.js",
   "homepage": "https://github.com/enspirit/rescript-chokidar#readme",
