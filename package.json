@@ -1,6 +1,6 @@
 {
   "name": "@enspirit/rescript-chokidar",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ReScript bindings for Chokidar.js",
   "main": "src/Chokidar.bs.js",
   "homepage": "https://github.com/enspirit/rescript-chokidar#readme",
@@ -15,16 +15,16 @@
     "chokidar"
   ],
   "scripts": {
-    "prepare": "npm run build",
-    "clean": "bsb -clean-world",
-    "build": "bsb -make-world",
-    "watch": "bsb -make-world -w",
+    "prepare": "npm run re:build",
+    "re:build": "rescript build -with-deps",
+    "re:start": "rescript build -w",
+    "re:clean": "rescript clean",
     "test": "exit 0"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
-    "bs-platform": "^8.2.0",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "rescript": "^9.1.4"
   },
   "jest": {
     "testURL": "http://localhost/"
